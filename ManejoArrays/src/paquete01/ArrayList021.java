@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class ArrayList021 {
 
     public static void main(String[] args) {
-     
+  
         ArrayList<String> arreglo2 = obtenerDatos();
         String cadenaFinal = obtenerCadenaFinal(arreglo2);
         ArrayList<String> iniciales = obtenerDatosIniciales(arreglo2);
@@ -33,7 +33,7 @@ public class ArrayList021 {
         String auxiliar;
         for (int i = 0; i < nombres.size(); i++) {
             auxiliar = nombres.get(i);
-            auxiliar = auxiliar.substring(0, 1).toLowerCase();
+            auxiliar = obtenerInicialMinuscula(auxiliar);
             arreglo.add(auxiliar);
         }
         
@@ -48,7 +48,7 @@ public class ArrayList021 {
         String opcion;
         while (bandera) {
             System.out.println("Ingrese un nombre de un país");
-            pais = entrada.nextLine(); // Ecuador / ecuador / ECuador
+            pais = entrada.nextLine(); 
             pais = convertirMayusculas(pais);
             arreglo2.add(pais);
             System.out.println("Desea ingresar salir, ingrese (s)");
@@ -65,11 +65,8 @@ public class ArrayList021 {
         String miValor = c.toUpperCase();
         return miValor;
     }
-    public static String obtenerMinuscula(String c){
-        String menor = c.toUpperCase();
-        return menor;
-    }
-           
+    
+            
     public static String obtenerCadenaFinal(ArrayList<String> lista){
         String cadenaFinal = "";
         
@@ -78,7 +75,10 @@ public class ArrayList021 {
                     lista.get(i));
         }
         return cadenaFinal;
-    }    
-        
+    } 
+
+    public static String obtenerInicialMinuscula(String c){
+        return c.substring(0, 1).toLowerCase();
+    }
     
 }
