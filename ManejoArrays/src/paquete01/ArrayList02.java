@@ -22,7 +22,7 @@ public class ArrayList02 {
         
         System.out.printf("%s\n", cadenaFinal);
     }
-
+                   // String []
     public static ArrayList<String> obtenerDatos(){
         ArrayList<String> arreglo2 = new ArrayList<>();
         boolean bandera = true;
