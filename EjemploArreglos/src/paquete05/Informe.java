@@ -59,7 +59,7 @@ public class Informe {
         
         return pedidosMayores;
     }
-    
-    
-    
 }
+/*
+Obtenemos datos de mayor pedido y menor pedido, y la cafetería con mayor pedidos
+*/

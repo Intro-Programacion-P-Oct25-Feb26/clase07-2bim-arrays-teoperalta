@@ -25,6 +25,7 @@ public class Reporte {
             promediosCaf[i], 
             pedidosMenor[i], 
             pedidosMayor[i]);
+            
         }
         
         mensaje = String.format("%s\nPedidos del día miércoles: %d\n", mensaje, pedidosDia);
@@ -33,3 +34,7 @@ public class Reporte {
         System.out.printf("%s\n", mensaje);
     }
 }
+/*
+En este procedimiento simplemente obtenemos en parametros los valores enviados 
+desde el metodo principal para imprimir el reporte final mediante mensaje
+*/

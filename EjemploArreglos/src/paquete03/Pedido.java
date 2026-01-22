@@ -27,3 +27,7 @@ public class Pedido {
                        
     }
 }
+/*
+Lo que hacemos aquí es dar los valores de consumo semanal a cada cafeteria en 
+un arreglo bidimensional y retornarlo.
+*/

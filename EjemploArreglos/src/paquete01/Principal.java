@@ -40,5 +40,10 @@ public class Principal {
                 pedidosMiercoles, 
                 cafeteriaMasPedida);
     }
-    
 }
+/*
+En esta clase lo que hacemos es importar las demas clases para luego llamar a 
+funciones ubicadas en las mismas, y asi asignar valor a cada variable o arreglo
+de la clase Principal y finalmente enviar como argumento todos los datos 
+obtenidos al metodo imprimirReporte.
+*/

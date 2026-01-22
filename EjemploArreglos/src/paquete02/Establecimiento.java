@@ -21,3 +21,7 @@ public class Establecimiento {
     
     }
 }
+/*
+Lo que hacemos aquí es asignar a un arreglo de cadenas unidimensional los valores
+mostrados y devolverlo.
+*/

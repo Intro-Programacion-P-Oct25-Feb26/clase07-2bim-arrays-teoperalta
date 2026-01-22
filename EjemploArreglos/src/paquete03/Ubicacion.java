@@ -19,3 +19,7 @@ public class Ubicacion {
         return sedes;
     }
 }
+/*
+Lo que hacemos aqui es crear una función que retorne  un arreglo unidimensional 
+de cadenas que representan las ubicaciones de cada cafetería.
+*/

@@ -79,3 +79,7 @@ public class Operacion {
     }
 
 }
+/*
+Aquí realizamos todas las operaciones como: promedios, valor total, valor menor
+y valor mayor para retornarlos.
+*/
